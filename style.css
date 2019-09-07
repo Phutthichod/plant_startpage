@@ -1,0 +1,11 @@
+.grid-main{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 1rem;
+}
+.card-item{
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 50%;
+}
